@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Outfit", sans-serif;
+    color: #fff;
+}
+.container-fluid {
+    display: flex;
+    align-items: center;    
+    padding: 0 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+.header-menu .nav {
+    display: flex;
+    gap: 14px;
+}
+.header-menu {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.nav-link {
+    color: white;
+    font-size: 14.4px;
+    font-weight: 400;
+    padding: 12px 13px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+
+}
+.nav-link:hover {
+    background: black;
+    color: white;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.nav a {
+    text-decoration: none;
+   
+}
+
+.nav li {
+    list-style-type: none;
+}
+.header-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+
+}
+
+/* hero section started */
+
+.container {
+    width: 81%;
+    margin: 0 auto;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 119px;
+}
+.hero-text {
+    font-size: 7rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.hero-img img {
+    border-top-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+}
+.hero-img img {
+    width: 165%;
+    height: 398px;
+}
+.stroke-text {
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+.hero-img {
+    margin-right: 181px;
+}
+
+.hero-button-text {
+    display: flex;
+    margin-top: 33px;
+}
+.hero-button-text p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;   
+    width: 43%; 
+    margin-right: 32px;
+}
+button {
+    display: inline-block;
+    overflow: hidden;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+    padding: 16px 36px;
+    border-radius: 40px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+a {
+    text-decoration: none;
+    -webkit-transition: linear 0.1s;
+    transition: linear 0.1s;
+}
+
+/* hero section end */
+
+/* slider section started */
+#slider {
+    margin-top: 103px;
+    margin-bottom: 107px;
+}
+
+.sliders {
+    display: flex;
+    gap: 65px;
+    overflow: hidden;
+}
+
+.sliders img {
+    width: 200px;
+     
+}
+
+
+
+
+/* slider section end */
